@@ -1,0 +1,130 @@
+/* CSS RESET */
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+  /*
+  6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+/* Variables */
+:root {
+    --dark-bg: #1F2937;
+    --secondary-text: #E5E7EB;
+    --header-logo-text: #F9FAF8;
+    --btn-calltoaction-color: #3882F6;
+    --quote-bg: #E5E7EB;
+    --quote-header-text: #1F2937;
+    --nav-footer-width: 980px;
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Header & footer*/
+.header,
+footer {
+    width: 100vw;
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    padding: 10px ;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--nav-footer-width);
+}
+
+nav h2 {
+    color: var(--header-logo-text);
+    font-size: 24px;
+}
+
+nav ul {
+    color: var(--header-logo-text);
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+/* hero section  */
+
+.hero-section {
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: var(--nav-footer-width);
+    margin: 50px 10px;
+    color: var(--header-logo-text);
+}
+
+h1 {
+ font-size: 48px;  
+ font-weight: 900;
+}
+
+.left-side{
+    max-width: 490px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+
+.hero img {
+    max-width: 490px;
+}
+
+.btn {
+  padding: 3px 16px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--btn-calltoaction-color);
+  color: var(--header-logo-text);
+  font-weight: bold;
+}
