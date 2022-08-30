@@ -210,3 +210,30 @@ h1 {
   font-size: 18px;
   font-weight: bolder;
 }
+
+/* Call to action section */
+.section-call-to-action {
+  max-width: var(--nav-footer-width);
+  display: flex;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.call-to-action {
+  background-color: var(--btn-calltoaction-color);
+  color: var(--header-logo-text);
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.call-to-action h2 {
+  margin-bottom: 5px;
+}
+
+.btn-white {
+  border: 1px solid var(--header-logo-text);
+}
