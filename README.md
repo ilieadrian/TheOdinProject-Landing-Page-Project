@@ -1,2 +1,5 @@
-# project-landing-page
-TheOdinProject Landing Page project
+#TheOdinProject HTML - CSS project
+
+
+
+Live Version https://ilieadrian.github.io/TheOdinProject-Landing-Page-Project/
